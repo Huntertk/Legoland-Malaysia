@@ -7,7 +7,7 @@ import {toast} from 'react-toastify'
 import moment from 'moment'
 import '../../styles/manageDates.scss'
 
-const BookTypeOneDate = () => {
+const BookTypeThreeDate = () => {
   const [isLoading, setIsLoading] = useState(false)
     const [selectedDate, setSelectedDate] = useState("")
     const [isFetch, setIsFetch] = useState(false)
@@ -21,7 +21,7 @@ const BookTypeOneDate = () => {
       const addBlockDate = async () => {
         try {
           setIsLoading(true)
-            const {data} = await axios.post('/api/v1/booktype-one-dates-manage/block-dates', {blockDates: dateToString})
+            const {data} = await axios.post('/api/v1/booktype-three-dates-manage/block-dates', {blockDates: dateToString})
             toast.success("Date Blocked Successfully")
             setIsFetch(prev => !prev)
             setSelectedDate("")
@@ -33,7 +33,7 @@ const BookTypeOneDate = () => {
         
         const getBlockDates = async () => {
           try {
-            const {data} = await axios.get('/api/v1/booktype-one-dates-manage/block-dates')
+            const {data} = await axios.get('/api/v1/booktype-three-dates-manage/block-dates')
             setBlockedDates(data.blockDates)
           } catch (error) {
             console.log(error);
@@ -43,7 +43,7 @@ const BookTypeOneDate = () => {
         const removeBlockedDate = async (id) => {
           try {
             setIsLoading(true)
-            const res = await axios.delete(`/api/v1/booktype-one-dates-manage/block-dates/${id}`)
+            const res = await axios.delete(`/api/v1/booktype-three-dates-manage/block-dates/${id}`)
             setIsFetch(prev => !prev)
             setIsLoading(false)
           } catch (error) {
@@ -57,7 +57,7 @@ const BookTypeOneDate = () => {
 
   return (
     <div className='mainDateManageContainer'>
-        <h1>1 Day Legoland Themepark <br /> Date Manage</h1>
+        <h1>1 Day Legoland Sealife <br /> Date Manage</h1>
         <DayPicker
                 defaultMonth={new Date(Date.now())}
                 mode="single"
@@ -70,9 +70,7 @@ const BookTypeOneDate = () => {
 
         {selectedDate && <p>You selected { format(selectedDate, 'PPP')} </p>}    
 
-       {selectedDate && <button className='btn' onClick={addBlockDate}
-       disabled={isLoading}
-       >Block Dates</button>}
+       {selectedDate && <button className='btn' onClick={addBlockDate} disabled={isLoading}>Block Dates</button>}
 
        <div className="blockedDateContainer">
         <h1>
@@ -91,4 +89,4 @@ const BookTypeOneDate = () => {
   )
 }
 
-export default BookTypeOneDate
+export default BookTypeThreeDate
