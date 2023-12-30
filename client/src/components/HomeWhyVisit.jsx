@@ -12,7 +12,7 @@ const HomeWhyVisit = () => {
 
                     <p>
                         <img src="https://i.postimg.cc/PqNMjHDZ/8f.jpg" alt="image" /><br />
-                        Enjoy the panoramic view of structures from whole over the world likeTaj Mahal,KLCC Twin Tower and many more beautiful monument at The Miniland.<br/>
+                        Enjoy the panoramic view of structures from whole over the world like Taj Mahal, KLCC Twin Tower and many more beautiful monument at The Miniland.<br/>
                     </p>
                     <p>
                         <img src="https://i.postimg.cc/G2xtg8pj/build-test.jpg" alt="" /><br />
