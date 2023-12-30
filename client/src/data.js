@@ -137,7 +137,7 @@ export const cardHighLightsDetails = [
         id: uuidv4(),
         image: "https://i.postimg.cc/pd9KSZNJ/2016-03-11-legolandflorida-buildaboat-074-resized.jpg",
         title:"Build-A-Boat",
-        desc:"Unleash your creativity in a thrilling boat-building game, racing throughrapidstodetermine the top captain."
+        desc:"Unleash your creativity in a thrilling boat-building game, racing through rapids  to determine the top captain."
     },
     {
         id: uuidv4(),
@@ -149,7 +149,7 @@ export const cardHighLightsDetails = [
         id: uuidv4(),
         image: "https://i.postimg.cc/L5mYmkW7/Whats-App-Image-2023-12-27-at-10-36-32-1.jpg",
         title:"Dragon's Apperentice",
-        desc:"Designed for young knights in training preparing for the day they faceafully-grown dragon, this mini rollercoaster allows you to build bravery gradually. Enjoy twists, turns, and spirals with a view of the KingdomCastle."
+        desc:"Designed for young knights in training preparing for the day they faceafully-grown dragon, this mini rollercoaster allows you to build bravery gradually. Enjoy twists, turns, and spirals with a view of the Kingdom Castle."
     },   
 ]
 
@@ -158,17 +158,17 @@ export const cardHighLightsDetails = [
 export const thingsTodo = [
     {
         id: uuidv4(),
-        desc:"Ignite a passion for ocean learning in children with an up-closeandinteractive educational journey at the SEA LIFE Aquarium.",
+        desc:"Ignite a passion for ocean learning in children with an up-close and inter active educational journey at the SEA LIFE Aquarium.",
         image: "https://i.postimg.cc/y8xRJPNC/sea-life-malaysia-magical-storytelling-interactive-displays-a-hands-on-encounter.jpg"
     },
     {
         id: uuidv4(),
-        desc:"Ride the waves in LEGOLAND Water Park's wave pool, float alongthelazy river, and feel the excitement of sliding down body slidesandtubes!",
+        desc:"Ride the waves in LEGOLAND Water Park's wave pool, float alongthelazy river, and feel the excitement of sliding down body slides and tubes!",
         image: "https://i.postimg.cc/h4V1gpXC/131022122524-11-legoland-malaysia-waterpark.jpg"
     },
     {
         id: uuidv4(),
-        desc:"Experience an adrenaline rush with LEGOLANDThemePark's8themed areas and 40+ rides, attractions, and shows.",
+        desc:"Experience an adrenaline rush with LEGOLAND Theme Park's 8 themed areas and 40+ rides, attractions, and shows.",
         image: "https://i.postimg.cc/pd9KSZNJ/2016-03-11-legolandflorida-buildaboat-074-resized.jpg"
     },
     
@@ -209,7 +209,7 @@ export const addQues = [
     {
         id: uuidv4(),
         ques:"Ticket Validity",
-        ans:["The ticket can only be used for same-day return travel."]
+        ans:["You may use the tickets within 30 days from purchased date."]
     },
 ]
 
@@ -234,7 +234,7 @@ export const homeFAQ = [
     {
         id: uuidv4(),
         ques:"When does Legoland Malaysia close ? ",
-        ans:"Legoland Waterpark is close every Tuesday and Legoland Themepark iscloseevery Wednesday, except for Public Holiday and School Holiday."
+        ans:"Legoland Waterpark is close every Tuesday and Legoland Themepark is close every Wednesday, except for Public Holiday and School Holiday."
     },
     {
         id: uuidv4(),
