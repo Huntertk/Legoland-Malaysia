@@ -143,7 +143,7 @@ export const cardHighLightsDetails = [
         id: uuidv4(),
         image: "https://i.postimg.cc/h4V1gpXC/131022122524-11-legoland-malaysia-waterpark.jpg",
         title:"Red Rush",
-        desc:"Ideal for the entire family, this tube ride guarantees an unforgettableexperienceas it glides down a 312-foot-long twisting track."
+        desc:"Ideal for the entire family, this tube ride guarantees an unforgettable experienceas it glides down a 312-foot-long twisting track."
     },  
     {
         id: uuidv4(),
@@ -163,7 +163,7 @@ export const thingsTodo = [
     },
     {
         id: uuidv4(),
-        desc:"Ride the waves in LEGOLAND Water Park's wave pool, float alongthelazy river, and feel the excitement of sliding down body slides and tubes!",
+        desc:"Ride the waves in LEGOLAND Water Park's wave pool, float along the lazy river, and feel the excitement of sliding down body slides and tubes!",
         image: "https://i.postimg.cc/h4V1gpXC/131022122524-11-legoland-malaysia-waterpark.jpg"
     },
     {
