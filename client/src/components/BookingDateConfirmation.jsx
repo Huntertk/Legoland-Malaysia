@@ -176,7 +176,7 @@ const BookingDateConfirmation = () => {
                             setCalenderOpen(false)
                         }}>Next</button> 
                         </>
-                        : <></>
+                        : <p>Select One Date</p>
                     }
             </div>
         </div>

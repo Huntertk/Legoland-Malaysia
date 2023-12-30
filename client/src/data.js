@@ -12,7 +12,7 @@ export const cardData = [
             "https://i.postimg.cc/rsgds0Xp/Whats-App-Image-2023-12-27-at-10-36-33-1.jpg",
             "https://i.postimg.cc/wTTyPVLR/Whats-App-Image-2023-12-27-at-10-36-32.jpg",
         ],
-        title:"Legoland Themepark",
+        title:"1 Day Legoland Themepark",
         desc:"An exciting Lego-themed amusement park in Johor, featuring a colorful array of attractions, rides, and shows for a fun-filled family adventure.",
         type:"bookTypeOne",
         pricing: {
@@ -31,7 +31,7 @@ export const cardData = [
             "https://i.postimg.cc/VkKFpvJm/145.jpg",
             "https://i.postimg.cc/Pr4bvJzY/131022122232-9-legoland-malaysia-waterpark.jpg",
         ],
-        title:"Legoland Waterpark",
+        title:"1 Day Legoland Waterpark",
         desc:"Dive into aquatic fun at this Lego-themed water park in Johor, offering a splashing good time with water rides, slides, and interactive attractions for all ages.",
         type:"bookTypeTwo",
         pricing: {
@@ -50,7 +50,7 @@ export const cardData = [
             "https://i.postimg.cc/tTxtsz24/72a60970-c8f0-4300-a660-6b9e3da8ce99.jpg",
             "https://i.postimg.cc/15J65TsK/360-Ocean-Tunnel-Hi-Res-1.jpg",
         ],
-        title:"Legoland Sealife",
+        title:"1 Day Legoland Sealife",
         desc:"Lego-themed aquarium featuring vibrant marine life exhibits for a unique, family-friendly experience.",
         type:"bookTypeThree",
         pricing: {
@@ -70,7 +70,7 @@ export const cardData = [
             "https://i.postimg.cc/h4V1gpXC/131022122524-11-legoland-malaysia-waterpark.jpg",
             "https://i.postimg.cc/VkKFpvJm/145.jpg",
         ],
-        title:"Legoland Combo : Themepark + Sealife",
+        title:"1 Day Legoland Combo : Themepark + Sealife",
         desc:"Thrilling theme park meets underwater wonder at Sealife. Enjoy rides, attractions, and Lego-themed marine adventures for family fun.",
         type:"bookTypeFour",
         pricing: {
@@ -95,7 +95,7 @@ export const cardData = [
             "https://i.postimg.cc/h4V1gpXC/131022122524-11-legoland-malaysia-waterpark.jpg",
             "https://i.postimg.cc/VkKFpvJm/145.jpg",
         ],
-        title:"Legoland Combo : Themepark + Waterpark + Sealife",
+        title:"1 Day Legoland Combo : Themepark + Waterpark + Sealife",
         desc:"Experience the perfect trio of theme park thrills, Sealife wonders, and waterpark fun. All in one unforgettable adventure for the whole family.",
         type:"bookTypeFive",
         pricing: {
