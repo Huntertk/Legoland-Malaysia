@@ -5,8 +5,8 @@ const TourMap = () => {
   return (
     <section className='tourMapMainSectionContainer'>
         <div className="mapContainer">
-            <h1>Penang Hill Guide Map</h1>
-            <img src="https://i.postimg.cc/jq865RpW/Attraction-MAP.jpg" alt="map" />
+            <h1>Legoland Guide Map</h1>
+            <img src="https://i.postimg.cc/SKTVd8hj/Legoland-Malaysia-Map-1024x747.jpg" alt="map" />
         </div>
     </section>
   )

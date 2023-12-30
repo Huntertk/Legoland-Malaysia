@@ -27,7 +27,7 @@ const Home = () => {
       <HomeCardContainer />
       <HomeWhyVisit />
       <HomeHighlights />
-      {/* <TourMap /> */}
+      <TourMap />
       <ThingsTodo />
       <HomeAdditionalInformation />
       <HomeMap />
