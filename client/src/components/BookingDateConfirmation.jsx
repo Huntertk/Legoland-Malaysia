@@ -174,7 +174,7 @@ const BookingDateConfirmation = () => {
                 getBookTypeFiveBlockDates()
                 return
             }
-          },[selectedDate])
+          },[])
 
         if(!type){
             return <Navigate to="/" />
