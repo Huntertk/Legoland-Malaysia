@@ -39,9 +39,6 @@ const bookingSchema = new mongoose.Schema({
     bookingTitle:{
         type: String
     },
-    prefrence:{
-        type: String
-    }
 },{timestamps: true})
 
 

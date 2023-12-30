@@ -14,28 +14,15 @@ const bookingPlanSchema = new mongoose.Schema({
         type:[String]
     },
     pricing: {
-        fastLane:{
-            adult:{
-                type: Number
-            },
-            child:{
-                type: Number
-            },
-            senior:{
-                type: Number
-            },
+        adult:{
+            type: Number
         },
-        normalLane:{
-            adult:{
-                type: Number
-            },
-            child:{
-                type: Number
-            },
-            senior:{
-                type: Number
-            },
-        }
+        child:{
+            type: Number
+        },
+        senior:{
+            type: Number
+        },
     },
 }, {timestamps: true})
 
