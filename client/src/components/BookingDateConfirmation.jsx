@@ -47,7 +47,7 @@ const DateBtn = ({setSelectedDate, setCalenderOpen,selectedDate, calenderOpen, d
     },[])
     return (
         <div className="dateBtnContainer">
-           <button className={selectedDate.toString() == new Date(Date.now() + 1000 *60 *60 *24)  ? "active" : ""}
+           <button className={selectedDate?.toString() == new Date(Date.now() + 1000 *60 *60 *24)  ? "active" : ""}
            onClick={() => setSelectedDate(new Date(Date.now() + 1000 *60 *60 *24 ))}
            disabled={disabledBtnToDate(1000 *60 *60 *24)}
            >
@@ -59,7 +59,7 @@ const DateBtn = ({setSelectedDate, setCalenderOpen,selectedDate, calenderOpen, d
             </span>
            </button>
            <button 
-           className={selectedDate.toString() == new Date(Date.now() + 1000*60*60*242)  ? "active" : ""}
+           className={selectedDate?.toString() == new Date(Date.now() + 1000*60*60*242)  ? "active" : ""}
            onClick={() => setSelectedDate(new Date(Date.now() + 1000*60*60*24*2))}
            disabled={disabledBtnToDate(1000 *60 *60 *24*2)}
            >
@@ -71,7 +71,7 @@ const DateBtn = ({setSelectedDate, setCalenderOpen,selectedDate, calenderOpen, d
             </span>
             </button>
            <button  
-            className={selectedDate.toString() == new Date(Date.now() + 1000*60*60*24 * 3)  ? "active" : ""}
+            className={selectedDate?.toString() == new Date(Date.now() + 1000*60*60*24 * 3)  ? "active" : ""}
            onClick={() => setSelectedDate(new Date(Date.now() + 1000*60*60*24 * 3))}
            disabled={disabledBtnToDate(1000 *60 *60 *24*3)}
            >
@@ -83,7 +83,7 @@ const DateBtn = ({setSelectedDate, setCalenderOpen,selectedDate, calenderOpen, d
             </span>
             </button>
            <button 
-            className={selectedDate.toString() == new Date(Date.now() + 1000*60*60*24 *4)  ? "active" : ""}
+            className={selectedDate?.toString() == new Date(Date.now() + 1000*60*60*24 *4)  ? "active" : ""}
            onClick={() => setSelectedDate(new Date(Date.now() + 1000*60*60*24 * 4))}
            disabled={disabledBtnToDate(1000 *60 *60 *24*4)}
            >
@@ -107,9 +107,9 @@ const BookingDateConfirmation = () => {
         const [blockedDates, setBlockedDates] = useState([])
         const [isLoading, setIsLoading] = useState(false)
         const disabledDates = blockedDates?.map((dates) => new Date(dates.blockDates))
-       
-
+        
         const disabledDays = [
+            new Date(Date.now()),
             ...disabledDates
           ];
 
@@ -209,7 +209,7 @@ const BookingDateConfirmation = () => {
             onSelect={setSelectedDate}
             fromMonth={defaultMonth}
             toDate={new Date(Date.now() + 1000 * 60 *60 *24 *30)}
-            disabled={disabledDates}
+            disabled={disabledDays}
             />
             </div>
             <div className="selectedDate">
