@@ -38,8 +38,8 @@ export const createBooking = async (req, res) => {
                 },
             ],
             mode: 'payment',
-            success_url: `https://penang-hill-funicular-railway.onrender.com/${responseClientUrl}`,
-            cancel_url: 'https://penang-hill-funicular-railway.onrender.com/',
+            success_url: `https://legoland-malaysia.onrender.com/${responseClientUrl}`,
+            cancel_url: 'https://legoland-malaysia.onrender.com/',
             payment_intent_data: {
                 setup_future_usage: 'off_session',
                 description: 'Booking payment',
